@@ -1,0 +1,50 @@
+.containerX {
+display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  line-height: 20px;
+} 
+.card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 500px;
+}
+
+.arrows {
+ height: 40px;
+}
+
+.left {
+  margin-right: 10px;
+}
+
+button {
+  padding: 10px;
+  background-color: black;
+  color: white;
+  border: none;
+}
+
+img {
+  width: 150px;
+  height: 300px;
+ 
+}
+
+
+.fa {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+#left {
+    margin-right: 10px;
+}
+#right {
+    margin-left: 5px;
+    margin-right: 290px;
+}

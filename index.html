@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>User Info</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css"
+      integrity="sha256-+N4/V/SbAFiW1MPBCXnfnP9QSN3+Keu+NlB+0ev/YKQ="
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class = "container containerX">
+      <h2>Images of Cake</h2>
+     
+      <div class="card" style="width: 29rem;">
+        <img id="cakeImage"  class = "card-img-top"/>
+        <div class="card-body">
+          <h4 id="name" class = "title card-title"></h4>
+          <p id="summary" class = "summary card-text"></p>
+           <div class = "arrows">
+            <i class="fa fa-arrow-left"  id = "left" aria-hidden="true"></i>
+            <i class="fa fa-arrow-right" id = "right" aria-hidden="true"></i>
+          <button id="reset">RESET</button>
+           </div>
+        </div>     
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
